@@ -71,4 +71,20 @@ Issue: The option to add and remove moves was in a single menu item, causing con
 Cause: The program tried to handle both adding and removing moves in one function, making it difficult for users to modify moves properly.
 Solution: Split "Manage Moves" into two separate options: one for adding moves and one for removing moves.
 
+## Commit History
+
+1. **Fixed duplicate move issue by adding validation for move selection.**
+2. **Enabled team management after creation and added "Manage Team" menu.**
+3. **Implemented error handling for invalid Pokémon names.**
+4. **Fixed issue where move list was not displaying before selection.**
+5. **Added confirmation prompt before deleting a team.**
+6. **Added "View Team" option in the main menu.**
+7. **Enforced team limit of 6 Pokémon per team.**
+8. **Added message to inform users when no teams exist.**
+9. **Restricted Pokémon removal to "Manage Team" menu.**
+10. **Implemented add/remove moves feature in "Manage Team" menu.**
+11. **Implemented ability selection for Pokémon.**
+12. **Added type effectiveness display for Pokémon.**
+13. **Added error handling for API connection failures.**
+14. **Split add and remove moves into separate menu options.**
 
